@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F1FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TOP BAR -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:background="@drawable/gradient_bg">
+
+            <!-- BACK BUTTON -->
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:padding="10dp"
+                android:background="#33FFFFFF"
+                android:src="@android:drawable/ic_media_previous"
+                android:tint="#FFFFFF"/>
+
+            <!-- TITLE -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Word Meaning"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:layout_marginStart="16dp"/>
+
+        </LinearLayout>
+
+        <!-- CONTENT -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="22dp">
+
+            <!-- WORD + BOOKMARK -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/txtWord"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Algorithm"
+                    android:textColor="#673AB7"
+                    android:textStyle="bold"
+                    android:textSize="34sp"/>
+
+                <!-- BOOKMARK BUTTON -->
+
+                <ImageView
+                    android:id="@+id/btnBookmark"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@android:drawable/btn_star_big_off"
+                    android:tint="#673AB7"/>
+
+            </LinearLayout>
+
+            <!-- PRONUNCIATION -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="12dp">
+
+                <ImageView
+                    android:id="@+id/btnSpeak"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:src="@android:drawable/ic_lock_silent_mode_off"
+                    android:tint="#673AB7"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tap to Pronounce"
+                    android:textColor="#673AB7"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_marginStart="8dp"/>
+
+            </LinearLayout>
+
+            <!-- KANNADA -->
+
+            <TextView
+                android:id="@+id/txtKannada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ಅಲ್ಗಾರಿದಮ್"
+                android:textColor="#212121"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:layout_marginTop="24dp"/>
+
+            <!-- EXPLANATION TITLE -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explanation"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+
+            <!-- EXPLANATION -->
+
+            <TextView
+                android:id="@+id/txtExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Explanation"
+                android:textColor="#444444"
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="12dp"/>
+
+            <!-- SIMPLE TITLE -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simple Meaning"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+
+            <!-- SIMPLE -->
+
+            <TextView
+                android:id="@+id/txtSimple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simple Meaning"
+                android:textColor="#444444"
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="12dp"/>
+
+            <!-- EXAMPLE TITLE -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Example"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"/>
+
+            <!-- EXAMPLE -->
+
+            <TextView
+                android:id="@+id/txtExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Example"
+                android:textColor="#444444"
+                android:textSize="16sp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginTop="12dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
