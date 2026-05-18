@@ -38,6 +38,18 @@ Installation
 3. Sync Gradle files
 4. Run the application on Emulator or Android Device
 
+Screenshots
+<img width="325" height="483" alt="Picture1" src="https://github.com/user-attachments/assets/2a1a960e-3d83-4d40-bd25-257dd49dca2c" />
+<img width="268" height="483" alt="Picture2" src="https://github.com/user-attachments/assets/037afedc-ffe5-4b76-8570-4d81d920a4b0" />
+<img width="276" height="501" alt="Picture3" src="https://github.com/user-attachments/assets/7df9eef5-99ea-410a-8696-4dd4ae3c1646" />
+<img width="262" height="483" alt="Picture4" src="https://github.com/user-attachments/assets/58466669-1f1a-4455-bce9-f1a4cbe82c67" />
+<img width="277" height="493" alt="Picture5" src="https://github.com/user-attachments/assets/538a24f8-03f4-4400-a1d9-b6bbc33fee6e" />
+<img width="317" height="493" alt="Picture6" src="https://github.com/user-attachments/assets/1d442cef-faf0-4064-bbfb-e7d8fa03e2bb" />
+
+
+
+
+
 
 🎯 Objective
 
